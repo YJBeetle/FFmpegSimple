@@ -8,7 +8,7 @@ extern "C"
 #include <libavcodec/avcodec.h>
 }
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     static const enum AVPixelFormat CvFormat = AV_PIX_FMT_BGRA;
 

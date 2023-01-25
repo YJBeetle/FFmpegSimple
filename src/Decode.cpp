@@ -2,7 +2,7 @@
 #include <iostream>
 #include "./Decode.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     Decode::Decode(const std::string &filePath, enum AVMediaType type) {
         // 打开文件读取格式

@@ -8,7 +8,7 @@ extern "C"
 #include "./VideoDecode.hpp"
 #include "./Encode.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     class VideoConvert {
     private:

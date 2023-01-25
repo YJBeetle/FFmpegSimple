@@ -2,7 +2,7 @@
 
 #include "./Decode.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     enum class Rotation {
         Normal,

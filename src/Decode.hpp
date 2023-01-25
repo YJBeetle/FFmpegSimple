@@ -8,7 +8,7 @@ extern "C"
 #include <libavcodec/avcodec.h>
 }
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     class Decode {
     protected:

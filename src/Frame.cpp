@@ -12,7 +12,7 @@ extern "C"
 
 #include "./Frame.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     Frame::Frame() {
         m_frame = av_frame_alloc();

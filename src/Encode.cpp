@@ -10,7 +10,7 @@ extern "C"
 
 #include "./Encode.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     Encode::Encode(const std::string &filePath, int width, int height, int fps, int sample_rate) {
 #ifdef VERBOSE

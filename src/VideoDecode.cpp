@@ -7,7 +7,7 @@ extern "C"
 
 #include "./VideoDecode.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     VideoDecode::VideoDecode(const std::string &filePath) : Decode(filePath, AVMEDIA_TYPE_VIDEO) {
         // 确定视频旋转

@@ -14,7 +14,7 @@ extern "C"
 
 #include "./VideoConvert.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     VideoConvert::VideoConvert(int srcWidth, int srcHeight, enum AVPixelFormat srcFormat,
                                int dstWidth, int dstHeight, enum AVPixelFormat dstFormat,

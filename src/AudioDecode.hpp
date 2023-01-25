@@ -2,7 +2,7 @@
 
 #include "./Decode.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     class AudioDecode : public Decode {
     private:

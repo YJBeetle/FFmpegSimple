@@ -8,7 +8,7 @@ extern "C"
 
 #include "./AudioConvert.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     AudioConvert::AudioConvert(int64_t src_ch_layout_, enum AVSampleFormat src_sample_fmt_, int src_sample_rate_,
                                int64_t dst_ch_layout_, enum AVSampleFormat dst_sample_fmt_, int dst_sample_rate_) :

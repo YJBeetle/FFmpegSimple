@@ -10,7 +10,7 @@ extern "C"
 #include "./AudioDecode.hpp"
 #include "./Encode.hpp"
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     class AudioConvert {
     private:

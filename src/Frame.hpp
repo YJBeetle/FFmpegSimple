@@ -8,7 +8,7 @@ extern "C"
 #include <libavformat/avformat.h>
 }
 
-namespace Ffmpeg {
+namespace FFmpegSimple {
 
     class Frame {
     private:
